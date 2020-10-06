@@ -22,7 +22,7 @@ public class ControllerForBro extends Name implements NameInterface{
     @RequestMapping("/")
     public List<Object> methodGetEntityBro() {
             NAMME
-        CriteriaBuilder criteriaBuilder = entityManager
+        CriteriaBuilder criteriaBuilder =  entityManager
                 .getCriteriaBuilder();
         CriteriaQuery<Object> criteriaQuery = criteriaBuilder
                 .createQuery();
